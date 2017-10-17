@@ -28,5 +28,10 @@ public class BabysitterTest {
 	public void CheckRateForTimeWorkedBetweenMidnightAndLeaveOneHourShouldBe16() {
 		assertEquals(16,BabysitterCalculator.calculateWages(12,12,1));
 	}
+	
+	@Test
+	public void CheckRateForTimeWorkedBetweenMidnightAndLeaveTwoHoursShouldBe32() {
+		assertEquals(32,BabysitterCalculator.calculateWages(12,12,2));
+	}
 
 }
