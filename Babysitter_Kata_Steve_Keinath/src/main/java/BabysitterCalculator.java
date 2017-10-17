@@ -9,6 +9,9 @@ public class BabysitterCalculator {
 		if (leave != bedtime && bedtime < 12)
 			calculatedRate += (12 - bedtime) * 8;
 		
+		if (leave < 5)
+			calculatedRate += leave * 16;
+		
 		return calculatedRate;
 		
 	}
