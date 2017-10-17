@@ -1,1 +1,0 @@
-# Babysitter_Kata_Calculator
