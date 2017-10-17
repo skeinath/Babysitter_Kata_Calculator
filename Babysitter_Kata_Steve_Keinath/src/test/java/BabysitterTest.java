@@ -5,8 +5,8 @@ import org.junit.Test;
 public class BabysitterTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void CheckRateForTimeWorkedBetweenStartAndBedtimeOneHourShouldBe12() {
+		assertEquals(12,BabysitterCalculator.calculateWages(5,6,6));
 	}
 
 }
