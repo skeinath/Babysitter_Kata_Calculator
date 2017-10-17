@@ -1,9 +1,8 @@
 
 public class BabysitterCalculator {
 
-	public static Object calculateWages(int i, int j, int k) {
-		// TODO Auto-generated method stub
-		return (j - i) * 12;
+	public static Object calculateWages(int start, int bedtime, int leave) {
+		return (bedtime - start) * 12;
 	}
 
 }
